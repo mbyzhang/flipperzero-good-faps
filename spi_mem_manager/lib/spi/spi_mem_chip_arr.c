@@ -23,6 +23,7 @@ const SPIMemChip SPIMemChips[] = {
     {0x37, 0x40, 0x15, "A25LQ16", 2097152, 256, SPIMemChipVendorAMIC, SPIMemChipWriteModePage},
     {0x37, 0x40, 0x16, "A25LQ32A", 4194304, 256, SPIMemChipVendorAMIC, SPIMemChipWriteModePage},
     {0x68, 0x40, 0x14, "BY25D80", 1048576, 256, SPIMemChipVendorBoya, SPIMemChipWriteModePage},
+    {0x68, 0x40, 0x18, "BY25Q128", 16777216, 256, SPIMemChipVendorBoya, SPIMemChipWriteModePage},
     {0x1C, 0x20, 0x10, "EN25B05", 65536, 256, SPIMemChipVendorEON, SPIMemChipWriteModePage},
     {0x1C, 0x20, 0x10, "EN25B05T", 65536, 256, SPIMemChipVendorEON, SPIMemChipWriteModePage},
     {0x1C, 0x20, 0x11, "EN25B10", 131072, 256, SPIMemChipVendorEON, SPIMemChipWriteModePage},
